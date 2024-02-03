@@ -6,5 +6,5 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   integrations: [solidJs(), tailwind()],
   site: 'https://jalcocert.github.io',
-  base: '/astro-theme-ltree',
+  base: '/astro',
 });
