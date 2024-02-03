@@ -43,7 +43,7 @@ jobs:
       - name: Install Dependencies
         run: npm install  # or yarn install if you use yarn
       - name: Build Astro Site
-        run: npm run build  # Replace with your build command
+        run: npm run build && true # Replace with your build command
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
